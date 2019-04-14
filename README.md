@@ -29,16 +29,18 @@ c = a;
 
 ### Your solution here:
 1.  What is `a`?
+bongos
 ```
 a is (your answer here)
 ```
 2.  What is `b`?
+
 ```
-b is (your answer here)
+b is (true)
 ```
 3.  What is `c`?
 ```
-c is (your answer here)
+c is (bongos)
 ```
 
 Now run it and don't update your answers above.  Any surprises?  Don't worry about submitting wrong answers, it's all good :3
@@ -49,7 +51,7 @@ For the next problems, feel free to test out solutions in repl.it before putting
 Use the `+` operator to concatenate these strings together within a `console.log()`: "Please", "squeeze", "the", "cheese". __Make sure there are spaces in-between each word__.
 
 ```js
-var firstWord = "Please";
+var firstWord = "please"
 var secondWord = "squeeze";
 var thirdWord = "the";
 var fourthWord = "cheese";
@@ -58,10 +60,9 @@ Result should be:
 ```js
 "Please squeeze the cheese"
 ```
-
-```js
-// your answer here
-```
+console.log (first + " " +
+seconedWord + " "+ thirdWord + " "+ 
+forthWord);
 
 ## 3 - Variable Assignments
 
@@ -76,7 +77,8 @@ Let's do this in parts:
 1. How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
-```
+
+result = num 1+ num2
 2. Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
@@ -100,14 +102,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) true 
+c) true
+d) false
+e) false
+f) true
+g) true
+h) false
 ```
 
 ## 5 - Functions:
@@ -124,6 +126,10 @@ h)
    
 ```js
 // your answer here
+
+6- var i;
+   for (i=0; i<=100; i++)
+   
 ```
 
 ## 7 - Arrays:
@@ -132,25 +138,24 @@ h)
 
 ```js
 // your answer here
-```
-
+Var favorite movies = ["iron man","ant-man","suicide squad","the avengers","blade"
 *  How would you replace the 3rd favorite movie with the value `Toy Story 3`?
 
 ```js
 // your answer here
-```
+```favoriteMovies[2] = "toy story 3]
 
 *   How would you remove the last movie from that array?
 ```js
 // your answer here
-```
+```favorite movies array.pop();
 
 *   **Write a function** called `addMovie` that takes a parameter of `newMovie` that adds that movie to the end of the array.  (i.e. addMovie('Titanic')) adds Titanic to the end of the array.
 
 ```js
 // your answer here
 ```
-
+function addmovie(newMovie) {favoriteMovies.push(titanic)
 
 # Part 2: Project Progress: HTML and CSS!
 
